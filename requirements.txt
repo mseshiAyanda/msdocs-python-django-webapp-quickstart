@@ -1,5 +1,5 @@
 Django
-whitenoise
+
 opencv-contrib-python
 opencv-python
 numpy
