@@ -9,7 +9,7 @@ ALLOWED_HOSTS = [os.environ['WEBSITE_HOSTNAME']] if 'WEBSITE_HOSTNAME' in os.env
 MIDDLEWARE = [                                                                   
     'django.middleware.security.SecurityMiddleware',
 # Add whitenoise middleware after the security middleware                             
-    'whitenoise.middleware.WhiteNoiseMiddleware',
+    #'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',                      
     'django.middleware.common.CommonMiddleware',                                 
     'django.middleware.csrf.CsrfViewMiddleware',                                 
